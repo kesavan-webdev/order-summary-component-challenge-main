@@ -41,6 +41,7 @@ img{
 .card-content{
     font-weight: 500;
     color:  hsl(224, 23%, 55%);
+    font-size: 0.9rem;
 }
 
 card-btn{
@@ -70,4 +71,6 @@ button{
 .link{
    text-decoration: none;
    text-transform: capitalize;
+   color: hsl(224, 23%, 55%);
+   font-weight: 700;
 }
