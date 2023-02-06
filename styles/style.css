@@ -24,5 +24,21 @@ body{
 img{
     max-width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+}
+/* card-text-content custom style */
+.card-text-content{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.card-title{
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 2rem;
+    color:  hsl(223, 47%, 23%);
+}
+.card-content{
+    font-weight: 500;
+    color:  hsl(224, 23%, 55%);
 }
