@@ -20,7 +20,7 @@ body{
     margin: 25% auto;
     box-shadow: 12px 12px 12px rgba(0,0,0,0.3);
     border-radius: 20px;
-}
+    }
 img{
     max-width: 100%;
     height: auto;
@@ -41,4 +41,33 @@ img{
 .card-content{
     font-weight: 500;
     color:  hsl(224, 23%, 55%);
+}
+
+card-btn{
+    width: 100%;
+    
+}
+button{
+     /* here we given 80% width it wont work if we didnt give an 100% width to it parent 
+    element  */
+    display: block;
+    width:80%;
+    border-radius: 0.8rem;
+    padding: 0.8rem 0rem;
+    background-color:  hsl(245, 75%, 52%);
+    border: 0.1rem solid hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    text-transform: capitalize;
+    font-weight: 900;
+    margin: 2% auto;
+    
+}
+.card-link{
+    text-align: center;
+    margin: 1.5rem 0rem;
+}
+
+.link{
+   text-decoration: none;
+   text-transform: capitalize;
 }
