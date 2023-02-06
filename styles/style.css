@@ -30,12 +30,12 @@ img{
 /* card-text-content custom style */
 .card-text-content{
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 .card-title{
     font-weight: 900;
     text-transform: capitalize;
-    padding: 2rem;
+    padding: 1.5rem;
     color:  hsl(223, 47%, 23%);
 }
 .card-content{
@@ -61,6 +61,7 @@ button{
     text-transform: capitalize;
     font-weight: 900;
     margin: 2% auto;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.3);
     
 }
 .card-link{
@@ -73,4 +74,31 @@ button{
    text-transform: capitalize;
    color: hsl(224, 23%, 55%);
    font-weight: 700;
+}
+.card-pay-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+     background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    opacity:1;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+    
+}
+.text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.pay{
+    text-align: center;
+    text-transform: capitalize;
+}
+.pay-text{
+    font-weight: 700;
 }
